@@ -1,0 +1,34 @@
+**Datenschutzerklärung**
+
+Vielen Dank, dass Sie unsere App nutzen. Der Schutz Ihrer Privatsphäre ist uns wichtig. In dieser Datenschutzerklärung informieren wir Sie darüber, wie wir mit Ihren Daten umgehen.
+
+---
+
+**1. Keine Verarbeitung personenbezogener Daten durch uns**
+
+Unsere App selbst sammelt, speichert oder verarbeitet keinerlei personenbezogene Daten. Es werden keine Informationen über Sie oder Ihr Gerät erhoben, weder automatisch noch durch Ihre aktive Eingabe.
+
+---
+
+**2. Verwendung von Unity-Technologien**
+
+Unsere App wurde mit der Unity-Engine entwickelt. Unity Technologies, der Anbieter der Unity-Engine, kann unter Umständen bestimmte Daten über die Nutzung der App und Ihr Gerät sammeln. Diese Daten können umfassen:
+- Geräteinformationen (z. B. Betriebssystem, Modell, IP-Adresse),
+- Nutzungsstatistiken (z. B. App-Nutzung),
+- Fehler- und Absturzberichte.
+
+Die Erhebung und Verarbeitung dieser Daten erfolgt durch Unity Technologies. Weitere Informationen zur Datenverarbeitung durch Unity finden Sie in der Datenschutzerklärung von Unity:  
+[https://unity.com/legal/privacy-policy](https://unity.com/legal/privacy-policy)
+
+---
+
+**3. Keine Integration von Unity-Analytics oder Unity-Ads**
+
+Wir haben keine zusätzlichen Unity-Dienste wie Unity Analytics oder Unity Ads in unsere App integriert. Es erfolgt keine Datenanalyse oder Anzeige von Werbung durch unsere App.
+
+---
+
+**4. Kontakt**
+
+Falls Sie Fragen zu dieser Datenschutzerklärung haben, können Sie uns unter der folgenden Adresse kontaktieren:  
+nguyenmesserschmidt@web.de

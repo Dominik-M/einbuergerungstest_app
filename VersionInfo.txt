@@ -1,0 +1,8 @@
+Version: 1.0.4
+Package Name: com.NguyenMesserschmidts.Einbuergerungstest
+Bundle Version Code: 4
+
+New in this version:
+- Options Scene
+- Fixed a bug that some questions did not have a correct answer
+- Update some texts

@@ -1,0 +1,54 @@
+# Unity spezifische Dateien
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# Benutzerdefinierte Einstellungen
+UserSettings/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# Paket-Zwischenablagen
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# IDEs und Editor-spezifische Dateien
+.vscode/
+.idea/
+*.code-workspace
+
+# TextMesh Pro generierte Dateien
+[Tt]extMeshPro/
+
+# Auto generierte Dateien von Unity
+*.unitypackage
+
+# Bilder und andere Cache Dateien
+Assets/StreamingAssets/aa/*/addressables_content_state.bin
+
+# Sonstige Cache-Dateien
+.DS_Store
+*.swp
+*.git/
+
+# Platform-spezifische Dateien
+*.apk
+*.aab
+*.xcuserdatad/
+*.lock
+*.psd
+*.tga
