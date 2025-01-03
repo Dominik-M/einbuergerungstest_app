@@ -378,169 +378,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isMain: 0
---- !u!1 &515243910
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 515243911}
-  - component: {fileID: 515243913}
-  - component: {fileID: 515243912}
-  m_Layer: 0
-  m_Name: Text (TMP)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &515243911
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 515243910}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 935399990}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1023, y: 4538.45}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &515243912
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 515243910}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: "\nEinb\xFCrgerungstest \xDCbungsfragen\r\n\r\n300+ \xDCbungsfragen vom
-    deutschen Einb\xFCrgerungstest und Quiz Funktionen\r\n\r\nOffizielle Regeln:\r\n\r\nUm
-    den Einb\xFCrgerungstest mit Fragen aus Hessen zu bestehen, m\xFCssen Sie mindestens
-    die H\xE4lfte der Fragen richtig beantworten. Bei 33 Fragen m\xFCssen Sie somit
-    die richtigen Antworten auf mindestens 17 Fragen finden.\r\n\r\nSie haben 60
-    Minuten Zeit, um die Fragen zu beantworten. Zu jeder Frage erhalten Sie vier
-    Antwortm\xF6glichkeiten, nur eine davon ist richtig.\r\n\r\nQuellen:\r\nhttps://www.einbuergerungstest-online.de/einbuergerungstest/he\r\n\r\nhttps://docs.google.com/document/d/1iYs_2dYUqV6WZdFzF_7pKusr_UI1_rJb/edit?usp=drive_link&ouid=115256678997942626104&rtpof=true&sd=true\n\nVersion:
-    1.0.4\r\nPackage Name: com.NguyenMesserschmidts.Einbuergerungstest\r\nBundle
-    Version Code: 4\r\n\r\nNew in this version:\r\n- Change Options Screen to Information
-    Screen\r\n- Fixed a bug that some questions did not have a correct answer\r\n-
-    Update some texts\r\n\n\n**Datenschutzerkl\xE4rung**\r\n\r\nVielen Dank, dass
-    Sie unsere App nutzen. Der Schutz Ihrer Privatsph\xE4re ist uns wichtig. In dieser
-    Datenschutzerkl\xE4rung informieren wir Sie dar\xFCber, wie wir mit Ihren Daten
-    umgehen.\r\n\r\n---\r\n\r\n**1. Keine Verarbeitung personenbezogener Daten durch
-    uns**\r\n\r\nUnsere App selbst sammelt, speichert oder verarbeitet keinerlei
-    personenbezogene Daten. Es werden keine Informationen \xFCber Sie oder Ihr Ger\xE4t
-    erhoben, weder automatisch noch durch Ihre aktive Eingabe.\r\n\r\n---\r\n\r\n**2.
-    Verwendung von Unity-Technologien**\r\n\r\nUnsere App wurde mit der Unity-Engine
-    entwickelt. Unity Technologies, der Anbieter der Unity-Engine, kann unter Umst\xE4nden
-    bestimmte Daten \xFCber die Nutzung der App und Ihr Ger\xE4t sammeln. Diese Daten
-    k\xF6nnen umfassen:\r\n- Ger\xE4teinformationen (z. B. Betriebssystem, Modell,
-    IP-Adresse),\r\n- Nutzungsstatistiken (z. B. App-Nutzung),\r\n- Fehler- und Absturzberichte.\r\n\r\nDie
-    Erhebung und Verarbeitung dieser Daten erfolgt durch Unity Technologies. Weitere
-    Informationen zur Datenverarbeitung durch Unity finden Sie in der Datenschutzerkl\xE4rung
-    von Unity:  \r\n[https://unity.com/legal/privacy-policy](https://unity.com/legal/privacy-policy)\r\n\r\n---\r\n\r\n**3.
-    Keine Integration von Unity-Analytics oder Unity-Ads**\r\n\r\nWir haben keine
-    zus\xE4tzlichen Unity-Dienste wie Unity Analytics oder Unity Ads in unsere App
-    integriert. Es erfolgt keine Datenanalyse oder Anzeige von Werbung durch unsere
-    App.\r\n\r\n---\r\n\r\n**4. Kontakt**\r\n\r\nFalls Sie Fragen zu dieser Datenschutzerkl\xE4rung
-    haben, k\xF6nnen Sie uns unter der folgenden Adresse kontaktieren:  \r\nnguyenmesserschmidt@web.de\r\n\n\n\n"
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 42
-  m_fontSizeBase: 42
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &515243913
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 515243910}
-  m_CullTransparentMesh: 1
 --- !u!1 &518173655
 GameObject:
   m_ObjectHideFlags: 0
@@ -910,7 +747,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 365396823}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.39661115
+  m_Size: 0.28976175
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -953,6 +790,131 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 598698363}
   m_CullTransparentMesh: 1
+--- !u!1 &926616231
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 926616232}
+  - component: {fileID: 926616235}
+  - component: {fileID: 926616234}
+  - component: {fileID: 926616233}
+  m_Layer: 0
+  m_Name: Text (Legacy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &926616232
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 926616231}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 935399990}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1000, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &926616233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 926616231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ba8fe18b686c894a98e22fa05490b3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  filelist:
+  - Readme
+  - VersionInfo
+  - Datenschutzerklaerung
+--- !u!114 &926616234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 926616231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 50
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 69
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "\nEinb\xFCrgerungstest \xDCbungsfragen\r\n\r\n300+ \xDCbungsfragen vom
+    deutschen Einb\xFCrgerungstest und Quiz Funktionen\r\n\r\nOffizielle Regeln:\r\n\r\nUm
+    den Einb\xFCrgerungstest mit Fragen aus Hessen zu bestehen, m\xFCssen Sie mindestens
+    die H\xE4lfte der Fragen richtig beantworten. Bei 33 Fragen m\xFCssen Sie somit
+    die richtigen Antworten auf mindestens 17 Fragen finden.\r\n\r\nSie haben 60
+    Minuten Zeit, um die Fragen zu beantworten. Zu jeder Frage erhalten Sie vier
+    Antwortm\xF6glichkeiten, nur eine davon ist richtig.\r\n\r\nQuellen:\r\nhttps://www.einbuergerungstest-online.de/einbuergerungstest/he\r\n\r\nhttps://docs.google.com/document/d/1iYs_2dYUqV6WZdFzF_7pKusr_UI1_rJb/edit?usp=drive_link&ouid=115256678997942626104&rtpof=true&sd=true\n\nVersion:
+    1.0.4\r\nPackage Name: com.NguyenMesserschmidts.Einbuergerungstest\r\nBundle
+    Version Code: 4\r\n\r\nNew in this version:\r\n- Change Options Screen to Information
+    Screen\r\n- Fixed a bug that some questions did not have a correct answer\r\n-
+    Update some texts\r\n\n\n**Datenschutzerkl\xE4rung**\r\n\r\nVielen Dank, dass
+    Sie unsere App nutzen. Der Schutz Ihrer Privatsph\xE4re ist uns wichtig. In dieser
+    Datenschutzerkl\xE4rung informieren wir Sie dar\xFCber, wie wir mit Ihren Daten
+    umgehen.\r\n\r\n---\r\n\r\n**1. Keine Verarbeitung personenbezogener Daten durch
+    uns**\r\n\r\nUnsere App selbst sammelt, speichert oder verarbeitet keinerlei
+    personenbezogene Daten. Es werden keine Informationen \xFCber Sie oder Ihr Ger\xE4t
+    erhoben, weder automatisch noch durch Ihre aktive Eingabe.\r\n\r\n---\r\n\r\n**2.
+    Verwendung von Unity-Technologien**\r\n\r\nUnsere App wurde mit der Unity-Engine
+    entwickelt. Unity Technologies, der Anbieter der Unity-Engine, kann unter Umst\xE4nden
+    bestimmte Daten \xFCber die Nutzung der App und Ihr Ger\xE4t sammeln. Diese Daten
+    k\xF6nnen umfassen:\r\n- Ger\xE4teinformationen (z. B. Betriebssystem, Modell,
+    IP-Adresse),\r\n- Nutzungsstatistiken (z. B. App-Nutzung),\r\n- Fehler- und Absturzberichte.\r\n\r\nDie
+    Erhebung und Verarbeitung dieser Daten erfolgt durch Unity Technologies. Weitere
+    Informationen zur Datenverarbeitung durch Unity finden Sie in der Datenschutzerkl\xE4rung
+    von Unity:  \r\n[https://unity.com/legal/privacy-policy](https://unity.com/legal/privacy-policy)\r\n\r\n---\r\n\r\n**3.
+    Keine Integration von Unity-Analytics oder Unity-Ads**\r\n\r\nWir haben keine
+    zus\xE4tzlichen Unity-Dienste wie Unity Analytics oder Unity Ads in unsere App
+    integriert. Es erfolgt keine Datenanalyse oder Anzeige von Werbung durch unsere
+    App.\r\n\r\n---\r\n\r\n**4. Kontakt**\r\n\r\nFalls Sie Fragen zu dieser Datenschutzerkl\xE4rung
+    haben, k\xF6nnen Sie uns unter der folgenden Adresse kontaktieren:  \r\nnguyenmesserschmidt@web.de\r\n\n\n\n"
+--- !u!222 &926616235
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 926616231}
+  m_CullTransparentMesh: 1
 --- !u!1 &935399989
 GameObject:
   m_ObjectHideFlags: 0
@@ -983,7 +945,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 515243911}
+  - {fileID: 926616232}
   m_Father: {fileID: 586578861}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
@@ -1027,7 +989,7 @@ MonoBehaviour:
   m_ChildForceExpandWidth: 0
   m_ChildForceExpandHeight: 0
   m_ChildControlWidth: 0
-  m_ChildControlHeight: 0
+  m_ChildControlHeight: 1
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0

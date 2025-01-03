@@ -5,5 +5,6 @@ Bundle Version Code: 4
 New in this version:
 - Change Options Screen to Information Screen
 - Fixed a bug that some questions did not have a correct answer
-- Update some texts
+- Info screen now loads text from Resources
 - Improved Scroll Views
+

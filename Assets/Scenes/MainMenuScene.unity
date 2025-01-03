@@ -765,7 +765,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 2
           m_FloatArgument: 0
-          m_StringArgument: OptionsScene
+          m_StringArgument: InfoScene
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &531643134
@@ -898,7 +898,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 2
           m_FloatArgument: 0
-          m_StringArgument: StatsScene
+          m_StringArgument: ListScene
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &659883930
