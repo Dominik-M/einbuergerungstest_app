@@ -20,6 +20,10 @@ App này cung cấp bộ câu hỏi nhập tịch Đức giúp việc học và 
 
 Thời gian làm bài thi là 60 phút bao gồm thời gian đọc đề và làm bài. Mỗi câu hỏi chỉ có một câu trả lời đúng.
 
+**Haftungsausschluss**
+
+Diese App ist ein privates Produkt und wird weder von einer Regierungsbehörde gesponsert, unterstützt, noch betrieben. Alle in dieser App bereitgestellten Inhalte, Informationen und Funktionen dienen ausschließlich allgemeinen Informations- und Unterhaltungszwecken und stehen in keinem Zusammenhang mit einer offiziellen Regierungsstelle. Die Verwendung dieser App begründet keine Beziehung oder Verbindlichkeit zwischen den Nutzern und einer Regierungsbehörde.
+
 
 Quellen / Nguồn :
 https://www.einbuergerungstest-online.de/einbuergerungstest/he

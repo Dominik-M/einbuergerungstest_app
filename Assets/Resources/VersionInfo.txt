@@ -1,10 +1,8 @@
-Version: 1.0.4
+Version: 1.0.5
 Package Name: com.NguyenMesserschmidts.Einbuergerungstest
-Bundle Version Code: 4
+Bundle Version Code: 5
 
-New in this version:
-- Change Options Screen to Information Screen
-- Fixed a bug that some questions did not have a correct answer
-- Info screen now loads text from Resources
-- Improved Scroll Views
+Neu in dieser Version:
+- aktualisiertes Readme
+
 
