@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class PracticeQuizController : MonoBehaviour
 {
+    public static readonly string IMAGE_MARKER = "[IMAGE]";
+
     public enum State
     {
         AWAIT_ANSWER, WRONG_ANSWER, RIGHT_ANSWER
@@ -14,9 +16,12 @@ public class PracticeQuizController : MonoBehaviour
 
     public Text titleText, answer1, answer2, answer3, answer4, probText, resultText;
     public Question question;
+    public ImageLoader titleImageLoader;
     public Color rightColor = new Color(0.0f, 1.0f, 0.0f, 1f);
     public Color wrongColor = new Color(1.0f, 0.0f, 0.0f, 1f);
     public Color normalColor = new Color(0.0f, 0.0f, 0.0f, 1f);
+    private int idx = 0;
+
     void Start()
     {
         NextQuestion();
@@ -25,9 +30,22 @@ public class PracticeQuizController : MonoBehaviour
 
     public void NextQuestion()
     {
-        int idx = (int)(Random.Range(0, Question.getAllQuestions().Length));
+        idx = (int)(Random.Range(0, Question.getAllQuestions().Length));
+        //For Test only
+        //idx = idx + 1;
         question = Question.getAllQuestions()[idx];
-        titleText.text = question.titleText;
+        string questiontitleText = question.titleText;
+        // Check if Title contains an image and try to load it
+        if (questiontitleText.Contains(IMAGE_MARKER))
+        {
+            questiontitleText = questiontitleText.Replace(IMAGE_MARKER, "");
+            titleImageLoader.LoadImage(idx);
+        }
+        else
+        {
+            titleImageLoader.gameObject.SetActive(false);
+        }
+        titleText.text = questiontitleText;
         answer1.text = question.answers[0];
         answer2.text = question.answers[1];
         answer3.text = question.answers[2];

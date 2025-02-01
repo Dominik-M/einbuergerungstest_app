@@ -1,8 +1,5 @@
 Known issues:
-- Images missing in answers
-- Layout is not dynamic adjusted to screen size, elements might not fit in every resolution
-
+- Images missing for Bundesland specific questions
 
 Features todo:
-- Select Bundesland and add Bundesland specific questions
-- At the end of the test see which answers where wrong
+- Select Bundesland for test mode
