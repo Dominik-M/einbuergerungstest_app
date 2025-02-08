@@ -33,6 +33,7 @@ public class PracticeQuizController : MonoBehaviour
         idx = (int)(Random.Range(0, Question.getAllQuestions().Length));
         //For Test only
         //idx = idx + 1;
+        //idx = 300;
         question = Question.getAllQuestions()[idx];
         string questiontitleText = question.titleText;
         // Check if Title contains an image and try to load it

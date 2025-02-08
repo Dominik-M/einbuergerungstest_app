@@ -61,6 +61,14 @@ public class Question
         }
         return c;
     }
+
+    public static Category GetCategoryByBundesland(BundeslandSelector.BUNDESLAND b)
+    {
+        Category c = Category.GENERAL;
+        int idx = System.Array.IndexOf(System.Enum.GetValues(typeof(BundeslandSelector.BUNDESLAND)), b);
+        c = (Category) System.Enum.GetValues(typeof(Category)).GetValue(idx+1);
+        return c;
+    }
     public static Question[] getAllQuestions()
     {
         return QUESTIONS;

@@ -1,12 +1,8 @@
-Version: 1.0.6
+Version: 1.0.7
 Package Name: com.NguyenMesserschmidts.Einbuergerungstest
-Bundle Version Code: 6
+Bundle Version Code: 7
 
 Neu in dieser Version:
-- Bilder werden zu den Fragen angezeigt
-- Bundesländerspezifische Fragen hinzugefügt
-- Dynamischeres Layouting zur Unterstützung verschiedener Auflösungen
-- Fragen kategorisiert
-- Review der Fragen nach dem Test
-
+- Auswahl des Bundeslands
+- Bilder zu Bundesländerspezifische Fragen hinzugefügt
 

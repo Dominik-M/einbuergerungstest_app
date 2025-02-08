@@ -23,4 +23,15 @@ public class ImageLoader : MonoBehaviour
         Debug.LogError("Failed to load Sprite: "+imagename);
         return false;
     }
+    public static Sprite LoadSprite(string spritename)
+    {
+        Debug.Log("Loading Sprite: " + spritename);
+        Sprite img = Resources.Load<Sprite>(spritename);
+        if (img)
+        {
+            return img;
+        }
+        Debug.LogError("Failed to load Sprite: " + spritename);
+        return null;
+    }
 }

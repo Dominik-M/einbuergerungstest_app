@@ -40,6 +40,7 @@ public class TestQuizController : MonoBehaviour
     }
     void Start()
     {
+        questionCategory = Question.GetCategoryByBundesland(BundeslandSelector.SelectedBundesland);
         testEnd = false;
         testQuests = new Question[numQuestions];
         testAnswers = new int[numQuestions];
@@ -57,6 +58,7 @@ public class TestQuizController : MonoBehaviour
         }
         resultPanel.SetActive(false);
         ShowQuestion(0);
+        Debug.Log("Starting Test with Category: " + questionCategory);
     }
 
     public bool CheckResult()

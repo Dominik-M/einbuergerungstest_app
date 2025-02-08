@@ -1,5 +1,5 @@
 Known issues:
-- Images missing for Bundesland specific questions
+- none
 
 Features todo:
-- Select Bundesland for test mode
+- Localization

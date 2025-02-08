@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2006833002963446127}
   - component: {fileID: 3591642525610550078}
   - component: {fileID: 5853045443501907883}
+  - component: {fileID: 4412150292550819091}
   m_Layer: 0
   m_Name: Image
   m_TagString: Untagged
@@ -88,6 +89,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39048a272076d6b4b8120090bc6a6245, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &4412150292550819091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3921701976062267463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreLayout: 0
+  m_MinWidth: -1
+  m_MinHeight: -1
+  m_PreferredWidth: 1000
+  m_PreferredHeight: 400
+  m_FlexibleWidth: 1
+  m_FlexibleHeight: 1
+  m_LayoutPriority: 1
 --- !u!1 &8118432385604244660
 GameObject:
   m_ObjectHideFlags: 0
@@ -181,8 +202,8 @@ MonoBehaviour:
   m_Padding:
     m_Left: 0
     m_Right: 0
-    m_Top: 0
-    m_Bottom: 0
+    m_Top: 32
+    m_Bottom: 12
   m_ChildAlignment: 4
   m_Spacing: 0
   m_ChildForceExpandWidth: 1
@@ -259,11 +280,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 50
+    m_FontSize: 64
     m_FontStyle: 0
     m_BestFit: 1
-    m_MinSize: 0
-    m_MaxSize: 50
+    m_MinSize: 24
+    m_MaxSize: 64
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
